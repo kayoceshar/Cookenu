@@ -1,0 +1,141 @@
+//Users:
+
+### Signup
+
+POST http://localhost:3003/user/signup
+Content-Type: application/json
+
+{
+    "name": "Kayo Céshar2",
+    "email": "kayoceshar9@hotmail.com",
+    "password": "kayo123",
+    "role": "NORMAL"
+}
+
+### Login ADmin
+POST http://localhost:3003/user/login
+Content-Type: application/json
+
+{
+    
+    "email": "kayoceshar@hotmail.com",
+    "password": "felipe.124"
+    
+}
+
+### Login Normal
+POST http://localhost:3003/user/login
+Content-Type: application/json
+
+{
+    
+    "email": "pedro@souza.com",
+    "password": "pedro123"
+    
+}
+
+### User Profile
+GET http://localhost:3003/user/profile
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImE2ZTQwOTFlLWU4NzMtNGFmOS1iOTgwLTI2OTg0OTNiZTk3ZSIsInJvbGUiOiJOT1JNQUwiLCJpYXQiOjE2NzcyMDQxMTcsImV4cCI6MTY3NzIwNzcxN30.K4a7fDUFsioN_tG5Hv6ZKXog8woEFarDvmlTsZpl690
+### Get User By Id
+GET http://localhost:3003/user/user/b801734d-f8e7-4c17-8e2e-2b4bcfd4692f
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImE2ZTQwOTFlLWU4NzMtNGFmOS1iOTgwLTI2OTg0OTNiZTk3ZSIsInJvbGUiOiJOT1JNQUwiLCJpYXQiOjE2NzcyMDQxMTcsImV4cCI6MTY3NzIwNzcxN30.K4a7fDUFsioN_tG5Hv6ZKXog8woEFarDvmlTsZpl690
+
+### Get All Users
+GET http://localhost:3003/user/allusers
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImE2ZTQwOTFlLWU4NzMtNGFmOS1iOTgwLTI2OTg0OTNiZTk3ZSIsInJvbGUiOiJOT1JNQUwiLCJpYXQiOjE2NzcyMDQxMTcsImV4cCI6MTY3NzIwNzcxN30.K4a7fDUFsioN_tG5Hv6ZKXog8woEFarDvmlTsZpl690
+
+### Delete User
+
+DELETE http://localhost:3003/user/delete/53f0ab5d-0737-4c10-89de-c3cec7961105
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjdiYjVkMGM4LTVkOTEtNDA0YS1hOGY0LTQxMWUyNDE0N2E4YyIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTY3NzIwNDIwMCwiZXhwIjoxNjc3MjA3ODAwfQ.su7zYGTF5ynba8U1AldHHzLWpIxIZkdbPRUwy0AQhcs
+
+
+###Forgot
+POST http://localhost:3003/user/forgotpassword
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjdiYjVkMGM4LTVkOTEtNDA0YS1hOGY0LTQxMWUyNDE0N2E4YyIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTY3NzIwNDIwMCwiZXhwIjoxNjc3MjA3ODAwfQ.su7zYGTF5ynba8U1AldHHzLWpIxIZkdbPRUwy0AQhcs
+Content-Type: application/json
+
+
+{
+    
+    "email": "kayoceshar@hotmail.com",
+    "password": "felipe.124"
+    
+}
+
+
+//Recipes
+
+### Create Recipe
+
+POST http://localhost:3003/recipe/recipe
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImE2ZTQwOTFlLWU4NzMtNGFmOS1iOTgwLTI2OTg0OTNiZTk3ZSIsInJvbGUiOiJOT1JNQUwiLCJpYXQiOjE2NzcyODAyNjksImV4cCI6MTY3NzI4Mzg2OX0.dpVG51b0Zdv9W0yyE2Npbi5oqVacuNLf7LFQRN8uMlU
+
+{
+    "title": "Feijucaa",
+    "description": "1 Kg de feijão preto, 100 g de carne seca, 70 g de orelha de porco"     
+}
+
+
+### Feed
+GET http://localhost:3003/recipe/feed
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImE2ZTQwOTFlLWU4NzMtNGFmOS1iOTgwLTI2OTg0OTNiZTk3ZSIsInJvbGUiOiJOT1JNQUwiLCJpYXQiOjE2NzcyODAyNjksImV4cCI6MTY3NzI4Mzg2OX0.dpVG51b0Zdv9W0yyE2Npbi5oqVacuNLf7LFQRN8uMlU
+
+
+
+### Get All Recipes
+GET http://localhost:3003/recipe/allrecipes
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImE2ZTQwOTFlLWU4NzMtNGFmOS1iOTgwLTI2OTg0OTNiZTk3ZSIsInJvbGUiOiJOT1JNQUwiLCJpYXQiOjE2NzcyODAyNjksImV4cCI6MTY3NzI4Mzg2OX0.dpVG51b0Zdv9W0yyE2Npbi5oqVacuNLf7LFQRN8uMlU
+
+
+### Get Recipe By Id
+GET http://localhost:3003/recipe/getrecipe/0786a709-6e8d-49aa-968e-660819033d1e
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjdiYjVkMGM4LTVkOTEtNDA0YS1hOGY0LTQxMWUyNDE0N2E4YyIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTY3NzIwNDIwMCwiZXhwIjoxNjc3MjA3ODAwfQ.su7zYGTF5ynba8U1AldHHzLWpIxIZkdbPRUwy0AQhcs
+
+
+
+### Edit Recipe
+
+PUT http://localhost:3003/recipe/edit/3a95cb73-9cb7-42bf-a507-5751d56d1833
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjdiYjVkMGM4LTVkOTEtNDA0YS1hOGY0LTQxMWUyNDE0N2E4YyIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTY3NzI4MTMzOCwiZXhwIjoxNjc3Mjg0OTM4fQ.LkQgKK0rQD6jQNSI9bFqOsx9iH2K5W7qITDUtLzXVLA
+Content-Type: application/json
+
+{
+    "title": "Salada"  
+}
+
+### Delete Recipe
+
+DELETE http://localhost:3003/recipe/delete/70cf5246-ce5e-4756-b10e-33fa8edbcfac
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImI4MDE3MzRkLWY4ZTctNGMxNy04ZTJlLTJiNGJjZmQ0NjkyZiIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTY3NzE5NzYzNiwiZXhwIjoxNjc3MjAxMjM2fQ.RDL_Yo5vo5Q72_1pEZ7jpcKaAjYf8ZOiy7Lg0mNahYw
+
+
+
+
+
+//Amizades:
+
+
+### Follow friend
+
+GET http://localhost:3003/friendship/follow/540a1b5b-3137-4813-84e9-a14e304e1c56
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjdiYjVkMGM4LTVkOTEtNDA0YS1hOGY0LTQxMWUyNDE0N2E4YyIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTY3NzIwNDIwMCwiZXhwIjoxNjc3MjA3ODAwfQ.su7zYGTF5ynba8U1AldHHzLWpIxIZkdbPRUwy0AQhcs
+
+
+### Get All Friendships
+GET http://localhost:3003/friendship/allfriendship
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjdiYjVkMGM4LTVkOTEtNDA0YS1hOGY0LTQxMWUyNDE0N2E4YyIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTY3NzIwNDIwMCwiZXhwIjoxNjc3MjA3ODAwfQ.su7zYGTF5ynba8U1AldHHzLWpIxIZkdbPRUwy0AQhcs
+
+### Unfollow Friendships
+
+DELETE http://localhost:3003/friendship/friendship/540a1b5b-3137-4813-84e9-a14e304e1c56
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjdiYjVkMGM4LTVkOTEtNDA0YS1hOGY0LTQxMWUyNDE0N2E4YyIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTY3NzIwNDIwMCwiZXhwIjoxNjc3MjA3ODAwfQ.su7zYGTF5ynba8U1AldHHzLWpIxIZkdbPRUwy0AQhcs
+
+
+
+
+
+
+
