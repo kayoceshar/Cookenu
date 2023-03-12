@@ -8,6 +8,8 @@ Documentação: https://documenter.getpostman.com/view/22376814/2s93CPqCVL
 
 ## 🧩 Projeto Cookenu - BackEnd - Turma Barros🥄
 
+
+🎯 EndPoints 🥄
 Esse produto nada mais é do que uma rede social, na qual os usuários podem dividir informações relevantes sobre comidas e receitas que tenham experimentado. Ela possui todas as funcionalidades mais comuns em redes sociais:
 
 🥄 1. **Cadastro / Criar Pessoa Usuária**  
