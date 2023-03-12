@@ -1,8 +1,8 @@
 ![cokenuu3](https://user-images.githubusercontent.com/102332717/220787670-df6c58d1-c8a5-4b35-a5d6-536805a06ef4.png)
 
-Render:
+Render: https://cookenu-2.onrender.com
 <br/>
-Documentação:
+Documentação: https://documenter.getpostman.com/view/22376814/2s93CPqCVL
 
   [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
