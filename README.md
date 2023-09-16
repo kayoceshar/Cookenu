@@ -63,7 +63,7 @@ Esse produto nada mais é do que uma rede social, na qual os usuários podem div
 **Pegar feed de receitas**:
 ![image](https://github.com/kayoceshar/Cookenu/assets/78767807/e89ae714-d816-4d8b-965b-da1c255ac4b3)
 
-**Pegar receitaa pelo Id**:
+**Pegar receita pelo Id**:
 ![image](https://github.com/kayoceshar/Cookenu/assets/78767807/8b93de24-82d3-4bf5-abf2-78fb474b74d1)
 
 
