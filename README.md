@@ -7,27 +7,37 @@
 🎯 EndPoints 🥄
 Esse produto nada mais é do que uma rede social, na qual os usuários podem dividir informações relevantes sobre comidas e receitas que tenham experimentado. Ela possui todas as funcionalidades mais comuns em redes sociais:
 
-🥄 1. **Cadastro / Criar Pessoa Usuária**  
+🥄 1. **Cadastro / Criar Pessoa Usuária**  - **Signup**
     
 🥄 2. **Login**
         
-🥄 3. **Informações do próprio perfil**
+🥄 3. **Informações do próprio perfil** - **User_Profile**
     
-🥄 4. **Criar receitas**
+🥄 4. **Criar receitas** - **Create_Recipe**
     
-🥄 5. **Seguir usuário**
+🥄 5. **Deixar de seguir usuário** - **Unfollow_Friendships**
     
-🥄 6. **Feed**
+🥄 6. **Feed** 
 
-🥄 7. **Seguir usuário**
+🥄 7. **Seguir usuário** - **Follow_friend**
  
-🥄 8. **Pegar feed de receitas**
+🥄 8. **Pegar feed de receitas** - **Get_All_Recipes**
   
-🥄 9. **Editar receita**
+🥄 9. **Editar receita** - **Edit_Recipe**
   
-🥄 10. **Deletar receita**
+🥄 10. **Deletar receita** - **Delete_Recipe**
 
-🥄 11. **Deletar conta**
+🥄 11. **Deletar conta** - **Delete_Account**
+
+🥄 12. **Pegar usuário pelo Id** - **Get_User_By_ID**
+
+🥄 13. **Pegar todos os usuários** - **Get_All_Users**
+
+🥄 14. **Recuperar senha do usuário** - **Forgot_Password**
+
+🥄 15. **Pegar receita pelo Id** - **Get_Recipe_By_Id**
+
+🥄 16. **Pegar todos os amigos do usuário** - **Get_All_Friendships**
  
 
     
