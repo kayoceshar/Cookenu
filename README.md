@@ -54,4 +54,9 @@ Esse produto nada mais é do que uma rede social, na qual os usuários podem div
 - ### **👨‍💻 Documentação Postman** 
      
   <p>Confira o <a href="https://documenter.getpostman.com/view/22376814/2s93CPqCVL" target="_blank">Documentação</a>.</p>
+
+### Prints
+
+![image](https://github.com/kayoceshar/Cookenu/assets/78767807/a176019e-1fbe-4ff5-bb22-18e404f2ca56)
+
     
