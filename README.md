@@ -1,7 +1,7 @@
 
   [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
-## 🧩 Projeto Cookenu - BackEnd - Turma Barros🥄
+## 🧩 Projeto Cookenu - BackEnd🥄
 
 
 🎯 EndPoints 🥄
