@@ -29,8 +29,6 @@ Esse produto nada mais é do que uma rede social, na qual os usuários podem div
 
 🥄 11. **Deletar conta**
  
-🥄 12. **Deletar conta**
- 
 
     
 ### **👨‍💻 Tecnologias Utilizadas**
