@@ -1,6 +1,3 @@
-Render: https://cookenu-2.onrender.com
-<br/>
-Documentação: https://documenter.getpostman.com/view/22376814/2s93CPqCVL
 
   [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
@@ -36,16 +33,27 @@ Esse produto nada mais é do que uma rede social, na qual os usuários podem div
  
 
     
-    - ### **👨‍💻 Tecnologias Utilizadas**
+### **👨‍💻 Tecnologias Utilizadas**
     	
-	- Typescript
-	- Node.js
-	- MySQL
-	- Express.js
-	- Knex.js
+- Typescript
+- Node.js
+- MySQL
+- Express.js
+- Knex.js
 	
-	- Para Rodar o projeto:
-	- git clone https://github.com/kayoceshar/Cookenu.git
-	- npm install
-	-npm run dev
+### Para Rodar o projeto:
+- git clone https://github.com/kayoceshar/Cookenu.git
+- npm install
+- criar um arquivo .env com as informações do seus banco de dados
+- variáveis do arquivo .env:
+	DB_HOST: ,
+   	DB_USER: ,
+    	DB_PASSWORD: ,
+    	DB_DATABASE: ,
+- executar as queries do arquivo queries.sql para criar as tabelas
+- npm run dev -> para rodar o servidor
+
+- ### **👨‍💻 Documentação Postman** 
+     
+  <p>Confira o <a href="https://documenter.getpostman.com/view/22376814/2s93CPqCVL" target="_blank">Documentação</a>.</p>
     
